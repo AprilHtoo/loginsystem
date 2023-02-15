@@ -6,5 +6,8 @@
 </head>
 <body>
     hello allemaal
+
+        <a href="login_form.php">Login form</a>
+        <a href="register_form.php">Login form</a>
 </body>
 <html>

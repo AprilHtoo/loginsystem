@@ -5,7 +5,7 @@
         <title>Homepage</title>
 </head>
 <body>
-    hello allemaal
+    hello allemaal<br><br>
 
         <a href="login_form.php">Login form</a>
         <a href="register_form.php">Login form</a>

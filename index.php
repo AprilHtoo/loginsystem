@@ -8,6 +8,6 @@
     hello allemaal<br><br>
 
         <a href="login_form.php">Login form</a>
-        <a href="register_form.php">Login form</a>
+        <a href="register_form.php">Register form</a>
 </body>
 <html>

@@ -1,6 +1,5 @@
 <?php
-    <?php
-    Echo "Start PHP </br>";
+    //Echo "Start PHP </br>";
 
     $server = "localhost"; //servername
     $db = 'loginsystem_db'; //databasename
@@ -16,9 +15,8 @@
     try{
         $conn = new PDO("mysql:localhost=$server; dbname=$db", $user, $pass, $options);
 
-        echo "Connected successfully </br>";
+        //echo "Connected successfully </br>";
     }catch (PDOExpection $e){
         echo "Connection failed: " . $e->getMessage() . "</br>" . (int)$e->getCode();
     }
-?>
 ?>

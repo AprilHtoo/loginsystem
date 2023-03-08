@@ -10,7 +10,7 @@
     $query = "INSERT INTO `loginsystem`(`user_name`, `user_pw`, `user_email`) VALUES (:username, :passw, :email)";
     $result = $conn->prepare($query);
 
-    $exuc = $result->execute(erray(":username"=>$username, ":passw"=>$passw, ":email"=>$email));
+    $exuc = $result->execute(array(":username"=>$username, ":passw"=>$passw, ":email"=>$email));
     
     if($exuc)
     {

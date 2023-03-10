@@ -7,8 +7,8 @@
     $username = $_POST['username'];
     $passw = $_POST['password'];
 
-    $query = "INSERT INTO" `loginsystem`(`user_name`, `user_pw`, `user_email`) VALUES ('[username]','[passw]','[email]');
-    //$query = "INSERT INTO `loginsystem`(`user_name`, `user_pw`, `user_email`) VALUES (:username, :passw, :email)";
+    //$query = "INSERT INTO" `loginsystem`(`user_name`, `user_pw`, `user_email`) VALUES ('[username]','[passw]','[email]');
+    $query = "INSERT INTO `loginsystem`(`user_name`, `user_pw`, `user_email`) VALUES (:username, :passw, :email)";
     $result = $conn->prepare($query);
 
     $exuc = $result->execute(array(":username"=>$username, ":passw"=>$passw, ":email"=>$email));

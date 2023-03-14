@@ -11,7 +11,10 @@
         <input type="text" name="username" placeholder="Username"><br><br>
         <input type="password" name="password" placeholder="Password"><br><br>
         <input type="submit" value="insert">
-    </form>
+    </form><br>
+
+
+    Geregistreerd? Terug naar <a href="login_form.php">Login form</a>
 
 
 </body>

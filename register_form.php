@@ -10,7 +10,7 @@
         <input type="test" name="email" placeholder="email"><br><br>
         <input type="text" name="username" placeholder="Username"><br><br>
         <input type="password" name="password" placeholder="Password"><br><br>
-        <input type="submit" value="insert">
+        <input type="submit" name="insert" value="insert">
     </form><br>
 
 
